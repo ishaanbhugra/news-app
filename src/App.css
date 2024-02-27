@@ -36,3 +36,180 @@
     transform: rotate(360deg);
   }
 }
+
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  transition: color 0.3s;
+}
+
+h1:hover {
+  color: white; /* Change color on hover */
+  background-color: black;
+  border-radius: 50px;
+}
+
+
+/* Innovative CSS for elements in the News component */
+h5 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+.a {
+  display: inline-block;
+  padding: 10px 20px;
+  background: linear-gradient(to right, #4e54c8, #8f94fb);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.a:hover {
+  background: linear-gradient(to right, #fc575e, #f7b733);
+}
+
+.imge {
+  /* max-width: 100%; */
+width: 20vw;
+  height: 30vh;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+p.published {
+  font-size: 0.9rem;
+  color: #888;
+}
+
+p.content {
+  font-size: 1.1rem;
+  color: #333;
+  line-height: 1.6;
+}
+
+
+
+
+@keyframes moveBackground {
+  0% {
+    background-color: #7aa6da; /* Initial color */
+    background-position: 0 0;
+  }
+  100% {
+    background-color: #c0c0c0; /* Final color */
+    background-position: 100% 100%;
+  }
+}
+
+body {
+  background: linear-gradient(to right, #7aa6da, #c0c0c0); /* Gradient colors */
+  background-size: 200% 200%; /* Make the background larger than the viewport */
+  animation: moveBackground 10s infinite; /* Adjust duration and other properties as needed */
+}
+
+.newsCollection{
+  max-width: 80vw;
+  margin: auto;
+ margin-top:20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.title {
+  font-size: 35px;
+  color: #333;
+
+  margin-bottom: 20px;
+  width: 70%;
+  margin: auto;
+}
+
+.subtitle {
+  font-size: 20px;
+  color: black;
+  margin-bottom: 15px;
+}
+
+.paragraph {
+  font-size: 16px;
+  color: #444;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.feature {
+  font-weight: bold;
+  color: #008080;
+}
+
+.link {
+  color: #008080;
+  text-decoration: underline;
+}
+
+
+.publishers-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.main-heading {
+  font-size: 2em;
+  color: #333;
+}
+
+.sub-heading {
+  font-size: 1.5em;
+  color: #666;
+  margin-top: 20px;
+}
+
+.paragraph {
+  margin-top: 10px;
+}
+
+.list {
+  margin-top: 10px;
+}
+
+.list li {
+  margin-bottom: 10px;
+}
+
+/* Add more styles as needed */
+
+.hnew {
+  font-family: Arial, sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  color: #ffffff; /* Default text color */
+  background-color: #333333; /* Default background color */
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  /* Add any additional styles you prefer */
+}
